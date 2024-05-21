@@ -11,6 +11,10 @@ Apple Silicon Mac.
 
 `go get -u github.com/hyphennn/govendor`
 
+after go1.16, you can also use:
+
+`go install github.com/hyphennn/govendor@latest`
+
 # Use Go modules
 
 [Go modules](https://golang.org/cmd/go/#hdr-Modules__module_versions__and_more)
