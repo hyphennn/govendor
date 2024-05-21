@@ -14,7 +14,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/kardianos/govendor/internal/pathos"
+	"github.com/hyphennn/govendor/internal/pathos"
 	"github.com/pkg/errors"
 )
 

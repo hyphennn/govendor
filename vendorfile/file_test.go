@@ -12,11 +12,11 @@ import (
 
 func TestUpdate(t *testing.T) {
 	var from = `{
-	"Tool": "github.com/kardianos/govendor",
+	"Tool": "github.com/hyphennn/govendor",
 	"Package": [
 		{
 			"Vendor": "github.com/dchest/safefile",
-			"Local": "github.com/kardianos/govendor/internal/github.com/dchest/safefile",
+			"Local": "github.com/hyphennn/govendor/internal/github.com/dchest/safefile",
 			"Version": "74b1ec0619e722c9f674d1a21e1a703fe90c4371",
 			"VersionTime": "2015-04-10T19:48:00+02:00"
 		}

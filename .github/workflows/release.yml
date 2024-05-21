@@ -34,6 +34,6 @@ jobs:
           goos: ${{ matrix.goos }}
           goarch: ${{ matrix.goarch }}
           goversion: "https://dl.google.com/go/go1.22.0.linux-amd64.tar.gz"
-          project_path: "/go/src/github.com/kardianos/govendor"
+          project_path: "/go/src/github.com/hyphennn/govendor"
           binary_name: "govendor"
-          pre_command: "pwd && mkdir -p /go/src/github.com/kardianos/govendor && mv ./* /go/src/github.com/kardianos/govendor"
+          pre_command: "pwd && mkdir -p /go/src/github.com/hyphennn/govendor && mv ./* /go/src/github.com/hyphennn/govendor"

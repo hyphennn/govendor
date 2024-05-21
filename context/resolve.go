@@ -13,10 +13,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kardianos/govendor/internal/pathos"
-	filepath "github.com/kardianos/govendor/internal/vfilepath"
-	os "github.com/kardianos/govendor/internal/vos"
-	"github.com/kardianos/govendor/pkgspec"
+	"github.com/hyphennn/govendor/internal/pathos"
+	filepath "github.com/hyphennn/govendor/internal/vfilepath"
+	os "github.com/hyphennn/govendor/internal/vos"
+	"github.com/hyphennn/govendor/pkgspec"
 )
 
 var knownOS = make(map[string]bool)
@@ -50,7 +50,7 @@ func (ctx *Context) loadPackage() error {
 		}
 		if !info.IsDir() {
 			// We replace the directory path (followed by the symlink), to the real go repo package name/path
-			// ex : replace "<somewhere>/govendor.source.repo" to "github.com/kardianos/govendor"
+			// ex : replace "<somewhere>/govendor.source.repo" to "github.com/hyphennn/govendor"
 			path = strings.Replace(path, rootdir, ctx.RootDir, 1)
 			_, err = ctx.addFileImports(path, ctx.RootGopath)
 			return err

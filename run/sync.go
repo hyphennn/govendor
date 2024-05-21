@@ -8,8 +8,8 @@ import (
 	"flag"
 	"io"
 
-	"github.com/kardianos/govendor/context"
-	"github.com/kardianos/govendor/help"
+	"github.com/hyphennn/govendor/context"
+	"github.com/hyphennn/govendor/help"
 )
 
 func (r *runner) Sync(w io.Writer, subCmdArgs []string) (help.HelpMessage, error) {

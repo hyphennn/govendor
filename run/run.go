@@ -13,9 +13,9 @@ import (
 	"runtime"
 	"runtime/pprof"
 
-	"github.com/kardianos/govendor/context"
-	"github.com/kardianos/govendor/help"
-	"github.com/kardianos/govendor/prompt"
+	"github.com/hyphennn/govendor/context"
+	"github.com/hyphennn/govendor/help"
+	"github.com/hyphennn/govendor/prompt"
 )
 
 type nullWriter struct{}
