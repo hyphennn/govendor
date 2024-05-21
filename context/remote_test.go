@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/kardianos/govendor/internal/gt"
+	"github.com/hyphennn/govendor/internal/gt"
 )
 
 func TestFetchSimple(t *testing.T) {

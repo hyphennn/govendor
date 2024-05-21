@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kardianos/govendor/internal/pathos"
+	"github.com/hyphennn/govendor/internal/pathos"
 )
 
 // VcsInfo returns information about a given repo.

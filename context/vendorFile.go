@@ -11,9 +11,9 @@ import (
 	"strings"
 
 	"github.com/dchest/safefile"
-	"github.com/kardianos/govendor/vendorfile"
+	"github.com/hyphennn/govendor/vendorfile"
 
-	os "github.com/kardianos/govendor/internal/vos"
+	os "github.com/hyphennn/govendor/internal/vos"
 )
 
 // WriteVendorFile writes the current vendor file to the context location.

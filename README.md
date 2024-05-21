@@ -5,6 +5,11 @@ This repo is mainly to solve https://github.com/kardianos/govendor cannot be use
 As origin repo do not maintain anymore, there are still some old project that need govendor. It's necessary to support
 Apple Silicon Mac.
 
+Also, because kardianos/govendor do not maintain anymore, this repo will never merge back.
+
+- Why I rename all 'kardianos' to 'hyphennn'?
+    - This is not a go mod project. If I do not do this, 'go install' won't work.
+
 # below is origin README.md
 
 ## The Vendor Tool for Go
@@ -48,7 +53,7 @@ For a high level overview read the [whitepaper](doc/whitepaper.md)
 Uses the go1.5+ vendor folder. Multiple workflows supported, single tool.
 
 [![build-go-binary](https://github.com/hyphennn/govendor/actions/workflows/release.yml/badge.svg)](https://github.com/hyphennn/govendor/actions/workflows/release.yml)
-[![GoDoc](https://godoc.org/github.com/kardianos/govendor?status.svg)](https://godoc.org/github.com/kardianos/govendor)
+[![GoDoc](https://godoc.org/github.com/hyphennn/govendor?status.svg)](https://godoc.org/github.com/hyphennn/govendor)
 
 * Copy existing dependencies from $GOPATH with `govendor add/update`.
 * If you ignore `vendor/*/`, restore dependencies with `govendor sync`.
@@ -162,18 +167,18 @@ The full package-spec is:
 
 Some examples:
 
-* `github.com/kardianos/govendor` specifies a single package and single folder.
-* `github.com/kardianos/govendor/...` specifies `govendor` and all referenced
+* `github.com/hyphennn/govendor` specifies a single package and single folder.
+* `github.com/hyphennn/govendor/...` specifies `govendor` and all referenced
   packages under that path.
-* `github.com/kardianos/govendor/^` specifies the `govendor` folder and all
+* `github.com/hyphennn/govendor/^` specifies the `govendor` folder and all
   sub-folders. Useful for resources or if you don't want a partial repository.
-* `github.com/kardianos/govendor/^::github.com/myself/govendor` same as above
+* `github.com/hyphennn/govendor/^::github.com/myself/govendor` same as above
   but fetch from user "myself".
-* `github.com/kardianos/govendor/...@abc12032` all referenced packages at
+* `github.com/hyphennn/govendor/...@abc12032` all referenced packages at
   revision `abc12032`.
-* `github.com/kardianos/govendor/...@v1` same as above, but get the most recent
+* `github.com/hyphennn/govendor/...@v1` same as above, but get the most recent
   "v1" tag, such as "v1.4.3".
-* `github.com/kardianos/govendor/...@=v1` get the exact version "v1".
+* `github.com/hyphennn/govendor/...@=v1` get the exact version "v1".
 
 ## Packages and Status
 

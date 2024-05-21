@@ -12,9 +12,9 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/kardianos/govendor/context"
-	"github.com/kardianos/govendor/help"
-	"github.com/kardianos/govendor/migrate"
+	"github.com/hyphennn/govendor/context"
+	"github.com/hyphennn/govendor/help"
+	"github.com/hyphennn/govendor/migrate"
 )
 
 func (r *runner) Init(w io.Writer, subCmdArgs []string) (help.HelpMessage, error) {
