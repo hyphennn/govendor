@@ -142,6 +142,10 @@ func NewEnv() (Env, error) {
 	}
 	for _, line := range strings.Split(string(goEnv), "\n") {
 		if k, v, ok := pathos.ParseGoEnvLine(line); ok {
+			if len(v) > 2 && v[0] == '\'' && v[len(v)-1] == '\'' {
+				// this is for 'go env' will surround value with '', which is unnecessary
+				v = v[1 : len(v)-1]
+			}
 			env[k] = v
 		}
 	}
