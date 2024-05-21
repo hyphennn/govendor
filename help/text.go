@@ -169,5 +169,5 @@ var helpShell = `govendor shell
 		-pprof-handler    expose a pprof HTTP server on the given address
 `
 
-var msgGovendorVersion = version + `
+var msgGovendorVersion = "govendor hyphen forked version: " + version + `
 `
