@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/kardianos/govendor/context"
-	"github.com/kardianos/govendor/vendorfile"
+	"github.com/hyphennn/govendor/context"
+	"github.com/hyphennn/govendor/vendorfile"
 )
 
 func init() {

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kardianos/govendor/vendorfile"
+	"github.com/hyphennn/govendor/vendorfile"
 )
 
 var gdmFile = `co1/pk1 9fc824c70f713ea0f058a07b49a4c563ef2a3b98

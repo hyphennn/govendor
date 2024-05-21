@@ -18,11 +18,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kardianos/govendor/internal/pathos"
-	os "github.com/kardianos/govendor/internal/vos"
-	"github.com/kardianos/govendor/pkgspec"
-	"github.com/kardianos/govendor/vcs"
-	"github.com/kardianos/govendor/vendorfile"
+	"github.com/hyphennn/govendor/internal/pathos"
+	os "github.com/hyphennn/govendor/internal/vos"
+	"github.com/hyphennn/govendor/pkgspec"
+	"github.com/hyphennn/govendor/vcs"
+	"github.com/hyphennn/govendor/vendorfile"
 	"github.com/pkg/errors"
 )
 

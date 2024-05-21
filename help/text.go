@@ -7,7 +7,7 @@ package help
 import (
 	"strings"
 
-	"github.com/kardianos/govendor/migrate"
+	"github.com/hyphennn/govendor/migrate"
 )
 
 //go:generate govendor license -o licenses.go -template gen-license.template

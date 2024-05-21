@@ -11,8 +11,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/kardianos/govendor/pkgspec"
 	"golang.org/x/tools/go/vcs"
+
+	"github.com/hyphennn/govendor/pkgspec"
 )
 
 func Get(logger io.Writer, pkgspecName string, insecure bool) (*pkgspec.Pkg, error) {

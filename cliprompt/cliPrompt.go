@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kardianos/govendor/prompt"
+	"github.com/hyphennn/govendor/prompt"
 
 	cp "github.com/Bowery/prompt"
 )

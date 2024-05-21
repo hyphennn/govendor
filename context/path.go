@@ -8,8 +8,8 @@ import (
 	"io"
 	"path/filepath"
 
-	"github.com/kardianos/govendor/internal/pathos"
-	os "github.com/kardianos/govendor/internal/vos"
+	"github.com/hyphennn/govendor/internal/pathos"
+	os "github.com/hyphennn/govendor/internal/vos"
 )
 
 // Import path is in GOROOT or is a special package.
